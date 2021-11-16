@@ -2,13 +2,22 @@
 
 * Configuration
 
-`bundle install`
+```bash
+bundle install
+```
+
+```bash
+yarn install
+```
 
 * Database initialization
 
-`rails db:migrate`
-`yarn install`
+```bash
+rails db:migrate
+```
 
 * How to run
 
-`rails s`
+```bash
+rails s
+```
