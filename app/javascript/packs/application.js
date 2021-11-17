@@ -14,3 +14,4 @@ ActiveStorage.start()
 
 // Tailwind CSS
 import "stylesheets/application"
+import "controllers"
