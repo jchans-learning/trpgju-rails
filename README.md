@@ -19,5 +19,5 @@ rails db:migrate
 * How to run
 
 ```bash
-rails s
+foreman start
 ```
