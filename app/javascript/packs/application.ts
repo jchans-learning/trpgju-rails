@@ -11,6 +11,9 @@ import "channels"
 // Tailwind CSS
 import "stylesheets/application"
 
+import '@themesberg/flowbite'
+import "alpinejs"
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

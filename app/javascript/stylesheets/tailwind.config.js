@@ -8,6 +8,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('@tailwindcss/ui'),
+    require('@themesberg/flowbite/plugin'),
   ],
 }
