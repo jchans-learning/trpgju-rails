@@ -33,8 +33,6 @@ default: &default
     - .woff2
 
   extensions:
-    - .tsx
-    - .ts
     - .jsx
     - .mjs
     - .js
@@ -49,6 +47,8 @@ default: &default
     - .gif
     - .jpeg
     - .jpg
+    - .ts
+    - .tsx
 
 development:
   <<: *default
