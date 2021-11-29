@@ -1,0 +1,26 @@
+@media screen and (max-width: 640px) {
+  .fc .fc-toolbar-title {
+    font-size: 1rem;
+  }
+
+  .fc .fc-button {
+    padding: 0.2rem;
+    font-size: 0.75rem;
+  }
+
+  .fc .fc-view-harness-active {
+    height: 80vh !important;
+  }
+
+  .fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0.5rem;
+  }
+
+  .fc table {
+    font-size: 0.75rem;
+  }
+}
+
+/* 
+fc-view-harness fc-view-harness-active
+*/
