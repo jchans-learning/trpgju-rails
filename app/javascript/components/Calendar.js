@@ -3,7 +3,7 @@ import FullCalendar from '@fullcalendar/react'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from "@fullcalendar/interaction"
-import "./Calendar.css"
+import "../stylesheets/components/Calendar.scss"
 
 class Calendar extends React.Component {
   constructor(props) {
@@ -82,6 +82,7 @@ class Calendar extends React.Component {
           dateClick={this.handleDateClick}
           ref={this.calendarRef}
           allDaySlot={false}
+          height="85vh"
         />
       </React.Fragment>
     );
